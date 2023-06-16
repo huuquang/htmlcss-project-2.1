@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--  Reset Css -->
+		<link rel="stylesheet" href="./assets/css/reset.css" />
+
+		<!-- Emmet Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Style Css -->
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<title>Project 2.1</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="header header--sticky">
+			<div class="section__content">
+				<div class="header-block">
+					<!-- Logo -->
+					<a href="/">
+						<img src="./assets/img/logo.svg" alt="Bensnik." />
+					</a>
+
+					<!-- Menu -->
+					<nav class="menu">
+						<ul class="menu-list">
+							<li class="menu-item">
+								<a href="#home" class="menu-link active">Home</a>
+							</li>
+							<li class="menu-item">
+								<a href="#feature" class="menu-link">Features</a>
+							</li>
+							<li class="menu-item">
+								<a href="#pricing" class="menu-link">Pricing</a>
+							</li>
+							<li class="menu-item">
+								<a href="#about" class="menu-link">About</a>
+							</li>
+							<li class="menu-item">
+								<a href="#contact" class="menu-link">Contact</a>
+							</li>
+						</ul>
+					</nav>
+
+					<!-- header action -->
+					<div class="header-action">
+						<a href="#!" class="header-action__link">Sign in</a>
+						<a href="#!" class="header-action__btn">Sign up</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Main -->
+		<main>
+			<!-- Hero -->
+			<section class="hero" id="home">
+				<div class="section__content">
+					<div class="hero-wrapper">
+						<div class="hero-left">
+							<span class="hero-left__title">😎 EASY LEANING PLATFORM</span>
+							<h1 class="hero-left__heading">Words learner come here.</h1>
+							<div class="hero-left__desc">
+								Build skills with courses, certificates, and get online knowledge from our
+								<span>world-class</span> platform.
+							</div>
+							<div class="hero-left__actions">
+								<button class="btn hero-actions--btn">Get Started</button>
+								<button class="hero-actions--play">
+									<a href="#!"
+										><svg
+											width="14"
+											height="18"
+											viewBox="0 0 14 18"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path d="M14 9L0 0V18L14 9Z" fill="currentColor" />
+										</svg>
+									</a>
+								</button>
+							</div>
+						</div>
+						<div class="hero-right">
+							<img
+								src="./assets/img/hero-img.jpg"
+								alt="Words learner come here."
+								class="hero-right__img"
+							/>
+							<div class="hero-right__courses">
+								<span class="courses-book"></span>
+								<span class="courses-label">Courses 1000+</span>
+							</div>
+							<div class="hero-right__schedules">
+								<span class="schedules-label">Schedules</span>
+								<span class="schedules-progress"></span>
+								<span class="schedules-progress"></span>
+								<span class="schedules-progress"></span>
+								<span class="schedules-progress--small"></span>
+							</div>
+							<div class="hero-right__students">
+								<span class="student-label">Our Active Students</span>
+								<div class="student-group">
+									<img src="./assets/img/student-1.jpg" alt="student 1" class="avatar" />
+									<img src="./assets/img/student-2.jpg" alt="student 2" class="avatar" />
+									<img src="./assets/img/student-3.jpg" alt="student 3" class="avatar" />
+									<img src="./assets/img/student-4.jpg" alt="student 4" class="avatar" />
+									<div class="avatar" style="--bg-color: #1ebfc1">10K+</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Features -->
+			<section class="feature" id="feature">
+				<div class="section__content">
+					<div class="feature__wrapper">
+						<div class="feature__top">
+							<span class="section__title">F E A T U R E S</span>
+							<h2 class="section__heading">We are providing suitable features for students.</h2>
+							<p class="feature__desc">
+								Read our awesome feature that is absolutely suit for you. Explore the feature and
+								know the best.
+							</p>
+						</div>
+						<div class="feature__list">
+							<!-- item 1 -->
+							<div class="feature__item">
+								<img
+									src="./assets/icons/feature-1.svg"
+									alt="Live Class"
+									class="feature__item--img"
+								/>
+								<h3 class="feature__item--title">Live Class</h3>
+								<p class="feature__item--desc">
+									We are providing live classes with the best teacher for you
+								</p>
+							</div>
+
+							<!-- item 2 -->
+							<div class="feature__item">
+								<img src="./assets/icons/feature-2.svg" alt="Discuss" class="feature__item--img" />
+								<h3 class="feature__item--title">Discuss</h3>
+								<p class="feature__item--desc">
+									Conversation with teachers or another students about task or any other thing
+								</p>
+							</div>
+
+							<!-- item 3 -->
+							<div class="feature__item">
+								<img src="./assets/icons/feature-3.svg" alt="Task" class="feature__item--img" />
+								<h3 class="feature__item--title">Task</h3>
+								<p class="feature__item--desc">
+									We give every of our students task for gathering knowledge at home
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Popular -->
+			<section class="popular" id="pricing">
+				<div class="section__content">
+					<div class="popular__top">
+						<span class="section__title">C O U R S E S</span>
+						<h2 class="section__heading">Popular Courses</h2>
+					</div>
+					<div class="popular__row">
+						<div class="popular__row--desc">
+							Check out our most poular courses that suit for you. Here you can find your favourite
+							one.
+						</div>
+						<a href="#!" class="popular__row--link">View All Courses</a>
+					</div>
+					<div class="popular-list">
+						<!-- item 1 -->
+						<div class="popular-item">
+							<div class="popular-item__thumb">
+								<img
+									src="./assets/img/popular-1.jpg"
+									alt="Web Design"
+									class="popular-item__thumb--img"
+								/>
+							</div>
+							<div class="popular-item__content">
+								<h3 class="popular-item__heading">Web Design</h3>
+								<span class="popular-item__fee">Fee <strong>$200</strong></span>
+								<p class="popular-item__desc">Web design basic to higer level</p>
+								<div class="popular-item__info">
+									<span>40 Classes</span>
+									<span>3 Months</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- item 2 -->
+						<div class="popular-item">
+							<div class="popular-item__thumb">
+								<img
+									src="./assets/img/popular-2.jpg"
+									alt="Web Development"
+									class="popular-item__thumb--img"
+								/>
+							</div>
+							<div class="popular-item__content">
+								<h3 class="popular-item__heading">Web Development</h3>
+								<span class="popular-item__fee">Fee <strong>$250</strong></span>
+								<p class="popular-item__desc">Web development basic to higer level</p>
+								<div class="popular-item__info">
+									<span>30 Classes</span>
+									<span>3 Months</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- item 3 -->
+						<div class="popular-item">
+							<div class="popular-item__thumb">
+								<img
+									src="./assets/img/popular-3.jpg"
+									alt="UI/UX Design"
+									class="popular-item__thumb--img"
+								/>
+							</div>
+							<div class="popular-item__content">
+								<h3 class="popular-item__heading">UI/UX Design</h3>
+								<span class="popular-item__fee">Fee <strong>$350</strong></span>
+								<p class="popular-item__desc">UI/UX design basic to higer level</p>
+								<div class="popular-item__info">
+									<span>50 Classes</span>
+									<span>4 Months</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Stats -->
+			<section class="stats">
+				<div class="section__content">
+					<div class="stats__list">
+						<!-- item 1 -->
+						<div class="stats__item">
+							<strong>100+</strong>
+							<span>Popular Courses</span>
+						</div>
+						<!-- item 2 -->
+						<div class="stats__item">
+							<strong>500+</strong>
+							<span>Skilled Trainer</span>
+						</div>
+						<!-- item 3-->
+						<div class="stats__item">
+							<strong>1M+</strong>
+							<span>Student Learning</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Feedback -->
+			<section class="feedback" id="about">
+				<div class="section__content">
+					<div class="feedback__wrapper">
+						<div class="feedback__content">
+							<img
+								src="./assets/icons/open-quote.svg"
+								alt="open-quote"
+								class="feedback__open-qoute"
+							/>
+							<blockquote class="feedback__desc">
+								“They are the best people. And this is the suitable platform to learn from
+								distance.”
+							</blockquote>
+							<p class="feedback__author"><strong>Ben Foakes,</strong> student.</p>
+							<div class="feedback__controls">
+								<button class="feedback__controls--btn">
+									<svg
+										width="8"
+										height="14"
+										viewBox="0 0 8 14"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M7 13L1 7L7 1"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</button>
+								<button class="feedback__controls--btn">
+									<svg
+										width="8"
+										height="14"
+										viewBox="0 0 8 14"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M1 13L7 7L1 1"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="feedback__avatars">
+							<img
+								src="./assets/img/feedback-img-1.jpg"
+								alt="feedback-img-1"
+								class="feedback__avatar-item"
+							/>
+							<img
+								src="./assets/img/feedback-img-2.jpg"
+								alt="feedback-img-2"
+								class="feedback__avatar-item"
+							/>
+							<img
+								src="./assets/img/feedback-img-3.jpg"
+								alt="feedback-img-3"
+								class="feedback__avatar-item"
+							/>
+							<img
+								src="./assets/img/feedback-img-4.jpeg"
+								alt="feedback-img-4"
+								class="feedback__avatar-item"
+							/>
+							<img
+								src="./assets/img/feedback-img-5.webp"
+								alt="feedback-img-5"
+								class="feedback__avatar-item"
+							/>
+							<img
+								src="./assets/img/feedback-img-6.jpeg"
+								alt="feedback-img-6"
+								class="feedback__avatar-item"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Admit-->
+			<section class="admit" id="contact">
+				<div class="section__content">
+					<div class="admit__wrapper">
+						<div class="admit__content">
+							<h2 class="admit__heading section__heading">Ready to Get Admit</h2>
+							<p class="admit__desc section__desc">Create your account and Boost your Career.</p>
+						</div>
+						<button class="btn admit__cta">Get Started</button>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="section__content">
+				<div class="footer__list">
+					<!-- item 1 -->
+					<div class="footer__item">
+						<a href="/" class="footer__logo">
+							<img src="./assets/img/logo.svg" alt="Bensnik." />
+						</a>
+					</div>
+					<!-- item 2 -->
+					<div class="footer__item">
+						<h3 class="footer__title">Company</h3>
+						<ul class="footer__links">
+							<li><a href="#!" class="footer__link">About</a></li>
+							<li><a href="#!" class="footer__link">Careers</a></li>
+							<li><a href="#!" class="footer__link">Press</a></li>
+						</ul>
+					</div>
+					<!-- item 3  -->
+					<div class="footer__item">
+						<h3 class="footer__title">Community</h3>
+						<ul class="footer__links">
+							<li><a href="#!" class="footer__link">Team Plans</a></li>
+							<li><a href="#!" class="footer__link">Blog</a></li>
+							<li><a href="#!" class="footer__link">Students</a></li>
+							<li><a href="#!" class="footer__link">Schoolarships</a></li>
+						</ul>
+					</div>
+					<!-- item 4 -->
+					<div class="footer__item">
+						<h3 class="footer__title">Teaching</h3>
+						<ul class="footer__links">
+							<li><a href="#!" class="footer__link">Become a teacher</a></li>
+							<li><a href="#!" class="footer__link">Teaching academy</a></li>
+						</ul>
+					</div>
+					<!-- item 5 -->
+					<div class="footer__item">
+						<h3 class="footer__title">Be social</h3>
+						<ul class="footer__links">
+							<li>
+								<a href="#!" class="footer__link">
+									<img src="./assets/icons/twitter.svg" alt="Twitter:" class="footer__icon" />
+									Twitter
+								</a>
+							</li>
+							<li>
+								<a href="#!" class="footer__link">
+									<img src="./assets/icons/facebook.svg" alt="Facebook:" class="footer__icon" />
+									Facebook
+								</a>
+							</li>
+							<li>
+								<a href="#!" class="footer__link">
+									<img src="./assets/icons/instagram.svg" alt="Instagram:" class="footer__icon" />
+									Instagram
+								</a>
+							</li>
+							<li>
+								<a href="#!" class="footer__link">
+									<img src="./assets/icons/linkedin.svg" alt="Linkedin:" class="footer__icon" />
+									Linkedin
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__copy-right">© Copyright 2020 by Mayad Ahmed. All right reserved.</div>
+			</div>
+		</footer>
+	</body>
+</html>

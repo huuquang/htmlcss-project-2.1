@@ -1,0 +1,21 @@
+.admit {
+	display: flex;
+	align-items: center;
+	height: 272px;
+	margin-top: 130px;
+	background: #def6f5;
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__heading {
+		margin-top: 0;
+	}
+
+	&__desc {
+		margin-top: 18px;
+	}
+}

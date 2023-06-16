@@ -1,0 +1,226 @@
+.hero {
+	padding: 43px 0 79px;
+
+	&-wrapper {
+		display: flex;
+		align-items: center;
+	}
+
+	&-left {
+		width: 45.2%;
+		&__title {
+			font-size: 1.4rem;
+			line-height: 1.5;
+			color: #767e7e;
+		}
+
+		&__heading {
+			margin-top: 18px;
+			font-weight: 700;
+			font-size: 6.2rem;
+			line-height: 1.16;
+			color: #0d1111;
+		}
+
+		&__desc {
+			width: 374px;
+			margin-top: 46px;
+			font-size: 1.8rem;
+			line-height: 1.78;
+			color: #9da6a5;
+			& span {
+				display: inline-block;
+			}
+		}
+		&__actions {
+			margin-top: 52px;
+			display: flex;
+			align-items: center;
+			.hero-actions--play {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 62px;
+				height: 62px;
+				margin-left: 50px;
+				background: #fff;
+				color: var(--primary-color);
+				border: 1px solid var(--primary-color);
+				box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+				border-radius: 50%;
+				transition: all 0.3s ease;
+				&:hover {
+					background: var(--primary-color);
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	&-right {
+		width: 54.8%;
+		position: relative;
+		&__img {
+			width: 576px;
+			height: 631px;
+			object-fit: cover;
+			margin-left: auto;
+		}
+
+		&__courses {
+			display: flex;
+			align-items: center;
+			position: absolute;
+			left: 25px;
+			top: 149px;
+			width: 157px;
+			height: 75px;
+			padding: 17px 25px;
+			background: #fefefd;
+			box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+			border-radius: 18px;
+			.courses-book {
+				display: block;
+				position: relative;
+				width: 36px;
+				height: 40px;
+				background: #ff8282;
+				margin-right: 16px;
+				border-radius: 6px 3px 3px 6px;
+				&::after {
+					content: "";
+					display: inline-block;
+					position: absolute;
+					top: 28px;
+					left: 4px;
+					width: 28px;
+					height: 4px;
+					background: #fff;
+					border-radius: 4px;
+				}
+			}
+			.courses-label {
+				display: inline-block;
+				width: 55px;
+				height: 30px;
+				font-weight: 500;
+				font-size: 1rem;
+				line-height: 1.5;
+				color: #0d1111;
+			}
+		}
+
+		&__schedules {
+			display: block;
+			position: absolute;
+			left: 0;
+			bottom: 46px;
+			width: 124px;
+			height: 132px;
+			background: #ffffff;
+			box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+			border-radius: 24px;
+			padding: 16px 25px 23px;
+			text-align: center;
+
+			.schedules-label {
+				display: block;
+				font-weight: 500;
+				font-size: 1rem;
+				line-height: 1.5;
+				color: #0d1111;
+				margin-bottom: 16px;
+			}
+
+			.schedules-progress {
+				display: block;
+				position: relative;
+				width: 74px;
+				height: 6px;
+				margin-bottom: 12px;
+				background: #edf1f5;
+				border-radius: 3px;
+				&:nth-of-type(2)::before {
+					content: "";
+					display: block;
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 53%;
+					height: 6px;
+					background: #fb9899;
+					border-radius: 3px;
+				}
+				&:nth-of-type(3)::before {
+					content: "";
+					display: block;
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 69%;
+					height: 6px;
+					background: #fb9899;
+					border-radius: 3px;
+				}
+				&:nth-of-type(4)::before {
+					content: "";
+					display: block;
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 45%;
+					height: 6px;
+					background: #fb9899;
+					border-radius: 3px;
+				}
+				&--small {
+					display: block;
+					margin: 16px auto 0px;
+					width: 26px;
+					height: 6px;
+					background: #edf1f5;
+					border-radius: 3px;
+				}
+			}
+		}
+
+		&__students {
+			position: absolute;
+			right: 45px;
+			bottom: 41px;
+			width: 207px;
+			height: 90px;
+			padding: 17px 35px;
+			background: #fefefd;
+			box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+			border-radius: 24px;
+
+			.student-label {
+				display: block;
+				margin-bottom: 8px;
+				font-weight: 500;
+				font-size: 1rem;
+				line-height: 1.5;
+				color: #0d1111;
+			}
+
+			.student-group {
+				display: flex;
+				.avatar {
+					display: inline-block;
+					width: 33px;
+					height: 33px;
+					margin-left: -7px;
+					object-fit: cover;
+					border-radius: 50%;
+					background: var(--bg-color, #fff);
+					font-weight: 500;
+					font-size: 10px;
+					line-height: 33px;
+					text-align: center;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+}

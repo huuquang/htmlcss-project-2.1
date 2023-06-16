@@ -1,0 +1,44 @@
+.footer {
+	margin: 130px 0 50px;
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		column-gap: 144px;
+	}
+
+	&__title {
+		font-weight: 500;
+		font-size: 1.8rem;
+		line-height: 1.5;
+		color: #2e2e2e;
+	}
+
+	&__links {
+		margin-top: 26px;
+	}
+
+	&__link {
+		display: flex;
+		white-space: nowrap;
+		font-size: 1.6rem;
+		line-height: 1.5;
+		color: #535353;
+		margin-bottom: 18px;
+		&:hover {
+			color: #535353;
+			text-shadow: 1px 0 0 currentColor;
+		}
+	}
+
+	&__icon {
+		margin-right: 9px;
+	}
+
+	&__copy-right {
+		margin-top: 80px;
+		text-align: center;
+		font-size: 1.8rem;
+		line-height: 1.5;
+		color: #b0b5b4;
+	}
+}
